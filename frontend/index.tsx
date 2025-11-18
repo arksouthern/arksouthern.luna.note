@@ -364,7 +364,7 @@ export default function ProgArkSouthernLunaNotepad(props: App) {
 
 							</div>
 						</DialogFont>
-						<About icon={"/src/assets/notepad-icon.png"} title={
+						<About progId="@arksouthern/luna.note" license={{as: "full", title: "MIT"}} icon={"/src/assets/notepad-icon.png"} title={
 							<>
 								<A.TitleText class="flex-1 pointer-events-none pr-1 tracking-[.032rem] overflow-hidden whitespace-nowrap text-ellipsis">
 									About Notepad
@@ -376,14 +376,8 @@ export default function ProgArkSouthernLunaNotepad(props: App) {
 						}>
 							Replicating Microsoft's <small class="text-[0.75em]">&#174;</small> Notepad <br />
 							Version 0.4.2 (Build 2025.02-23) <br />
-							Arkansas Soft Construction <br />
+							Arkansas Soft Construction, Inc. <br />
 							<br />
-							<br />
-							This product is licensed under the terms of the MIT <br />
-							License Agreement to: <br />
-							<br />
-							&nbsp;&nbsp;&nbsp; Unknown User <br />
-							&nbsp;&nbsp;&nbsp; Unknown Organization
 
 						</About>
 						<A.AltBar class="h-5 relative border-b border-white bg-[#ece9d8] text-xs">
